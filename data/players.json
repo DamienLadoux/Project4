@@ -1,0 +1,44 @@
+[
+    {
+        "last_name": "Dupont",
+        "first_name": "Jean",
+        "birth_date": "1990-01-01",
+        "chess_id": "AB12345",
+        "score": 0.5
+    },
+    {
+        "last_name": "Martin",
+        "first_name": "Luc",
+        "birth_date": "1988-02-12",
+        "chess_id": "CD23456",
+        "score": 1.0
+    },
+    {
+        "last_name": "Bernard",
+        "first_name": "Emma",
+        "birth_date": "1995-03-08",
+        "chess_id": "EF34567",
+        "score": 0.5
+    },
+    {
+        "last_name": "Petit",
+        "first_name": "Enrique",
+        "birth_date": "1992-07-19",
+        "chess_id": "GH45678",
+        "score": 0.0
+    },
+    {
+        "last_name": "Ladoux",
+        "first_name": "Damien",
+        "birth_date": "1991-11-27",
+        "chess_id": "EC45678",
+        "score": 0.0
+    },
+    {
+        "last_name": "Pastor",
+        "first_name": "Ludwig",
+        "birth_date": "1985-10-25",
+        "chess_id": "GH12389",
+        "score": 0.0
+    }
+]

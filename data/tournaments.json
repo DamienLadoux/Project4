@@ -1,0 +1,531 @@
+[
+    {
+        "name": "Tournoi Paris",
+        "location": "Paris",
+        "start_date": "2026-05-15",
+        "end_date": "2026-05-16",
+        "description": "Détails pour l'orga",
+        "number_of_rounds": 4,
+        "current_round": 4,
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 1.5
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 2.0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.5
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 0.0
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            1.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "AB12345",
+                            1.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-19T15:43:53.716170",
+                "end_datetime": "2026-05-19T20:13:45.739415"
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:10:56.076063",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "EF34567",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:11:00.552052",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:11:05.121409",
+                "end_datetime": null
+            }
+        ]
+    },
+    {
+        "name": "TournoiBis",
+        "location": "Poitiers",
+        "start_date": "2026-05-20",
+        "end_date": "2026-05-21",
+        "description": "C'est ici",
+        "number_of_rounds": 4,
+        "current_round": 0,
+        "players": [],
+        "rounds": []
+    },
+    {
+        "name": "Tournoi 3",
+        "location": "Bordeaux",
+        "start_date": "20/05/26",
+        "end_date": "21/05/26",
+        "description": "Desc",
+        "number_of_rounds": 4,
+        "current_round": 4,
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.5
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 1.0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.5
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 0.0
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:00:00.595428",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "EF34567",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:00:15.636665",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "EF34567",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:00:25.303090",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 4",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-20T14:00:30.226526",
+                "end_datetime": null
+            }
+        ]
+    },
+    {
+        "name": "T4",
+        "location": "Ici",
+        "start_date": "21/05/26",
+        "end_date": "22/05/26",
+        "description": "A",
+        "number_of_rounds": 4,
+        "current_round": 3,
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 1.0
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 2.5
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 1.0
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 1.5
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 1.5
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 0.5
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "EC45678",
+                            1.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "CD23456",
+                            1.0
+                        ]
+                    ],
+                    [
+                        [
+                            "GH12389",
+                            0.5
+                        ],
+                        [
+                            "GH45678",
+                            0.5
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-21T10:21:28.251998",
+                "end_datetime": "2026-05-21T10:26:22.783816"
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.0
+                        ],
+                        [
+                            "EC45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "EF34567",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "GH45678",
+                            0.0
+                        ],
+                        [
+                            "GH12389",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-27T11:51:55.317615",
+                "end_datetime": null
+            },
+            {
+                "name": "Round 3",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.5
+                        ],
+                        [
+                            "AB12345",
+                            0.5
+                        ]
+                    ],
+                    [
+                        [
+                            "EC45678",
+                            0.5
+                        ],
+                        [
+                            "EF34567",
+                            0.5
+                        ]
+                    ],
+                    [
+                        [
+                            "GH45678",
+                            1.0
+                        ],
+                        [
+                            "GH12389",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-05-28T10:51:26.433661",
+                "end_datetime": "2026-05-28T10:51:26.436142"
+            }
+        ]
+    },
+    {
+        "name": "T5",
+        "location": "Paris",
+        "start_date": "28/05/26",
+        "end_date": "29/05/26",
+        "description": "Sur Paris",
+        "number_of_rounds": 4,
+        "current_round": 0,
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.5
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 1.0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.5
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 0.0
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 0.0
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 0.0
+            }
+        ],
+        "rounds": []
+    }
+]
