@@ -1,7 +1,8 @@
 from datetime import datetime
 from typing import Optional
-
+from models.player import Player
 from models.match import Match
+
 
 class Round:
     def __init__(
@@ -45,4 +46,3 @@ class Round:
             start_datetime=data.get("start_datetime"),
             end_datetime=data.get("end_datetime"),
         )
-

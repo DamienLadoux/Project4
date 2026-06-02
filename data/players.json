@@ -40,5 +40,19 @@
         "birth_date": "1985-10-25",
         "chess_id": "GH12389",
         "score": 0.0
+    },
+    {
+        "last_name": "Abouchoukr",
+        "first_name": "Loubna",
+        "birth_date": "1993-11-03",
+        "chess_id": "GD12345",
+        "score": 0.0
+    },
+    {
+        "last_name": "Rock",
+        "first_name": "Hélène",
+        "birth_date": "1991-10-20",
+        "chess_id": "JK78945",
+        "score": 0.0
     }
 ]

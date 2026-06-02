@@ -59,10 +59,7 @@ class AppController:
                 self.tournament_controller.start_round()
 
             elif choice == "6":
-                self.tournament_controller.record_results()
-
-            elif choice == "7":
                 self.report_controller.show_tournament_details()
 
-            elif choice == "8":
+            elif choice == "7":
                 break

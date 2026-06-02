@@ -24,7 +24,6 @@ class PlayerView:
             print(
                 f"{player.full_name()} "
                 f"({player.chess_id}) "
-                f"- Score: {player.score}"
             )
 
     @staticmethod

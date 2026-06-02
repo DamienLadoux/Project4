@@ -4,20 +4,33 @@ class ReportView:
     def display_players(players):
         print("\n=== Joueurs ===")
 
-        for player in sorted(players, key=lambda p: p.last_name):
+        for player in sorted(
+            players,
+            key=lambda p: p.last_name
+        ):
             print(
                 f"{player.full_name()} "
-                f"- {player.score}"
+                f"- {player.score} pts"
             )
 
     @staticmethod
     def display_tournament_details(tournament):
-        print(f"\n{tournament.name}")
-        print(tournament.start_date)
-        print(tournament.end_date)
+        print(f"\n=== {tournament.name} ===")
+        print(f"Début : {tournament.start_date}")
+        print(f"Fin   : {tournament.end_date}")
+
+        print("\n=== Classement ===")
+
+        for player in tournament.rankings():
+            print(
+                f"{player.full_name()} "
+                f"- {tournament.get_score(player)} pts"
+            )
 
     @staticmethod
     def display_rounds(tournament):
+        print("\n=== Rounds ===")
+
         for round_obj in tournament.rounds:
             print(f"\n{round_obj.name}")
 

@@ -7,6 +7,12 @@
         "description": "Détails pour l'orga",
         "number_of_rounds": 4,
         "current_round": 4,
+        "player_scores": {
+            "AB12345": 1.5,
+            "CD23456": 2.0,
+            "EF34567": 0.5,
+            "GH45678": 0.0
+        },
         "players": [
             {
                 "last_name": "Dupont",
@@ -156,6 +162,7 @@
         "description": "C'est ici",
         "number_of_rounds": 4,
         "current_round": 0,
+        "player_scores": {},
         "players": [],
         "rounds": []
     },
@@ -167,6 +174,12 @@
         "description": "Desc",
         "number_of_rounds": 4,
         "current_round": 4,
+        "player_scores": {
+            "AB12345": 0.5,
+            "CD23456": 1.0,
+            "EF34567": 0.5,
+            "GH45678": 0.0
+        },
         "players": [
             {
                 "last_name": "Dupont",
@@ -316,6 +329,14 @@
         "description": "A",
         "number_of_rounds": 4,
         "current_round": 3,
+        "player_scores": {
+            "AB12345": 1.0,
+            "CD23456": 2.5,
+            "EF34567": 1.0,
+            "GH45678": 1.5,
+            "EC45678": 1.5,
+            "GH12389": 0.5
+        },
         "players": [
             {
                 "last_name": "Dupont",
@@ -482,6 +503,14 @@
         "description": "Sur Paris",
         "number_of_rounds": 4,
         "current_round": 0,
+        "player_scores": {
+            "AB12345": 0.5,
+            "CD23456": 1.0,
+            "EF34567": 0.5,
+            "GH45678": 0.0,
+            "EC45678": 0.0,
+            "GH12389": 0.0
+        },
         "players": [
             {
                 "last_name": "Dupont",
@@ -527,5 +556,368 @@
             }
         ],
         "rounds": []
+    },
+    {
+        "name": "Tournoi Juin",
+        "location": "86",
+        "start_date": "02/06/2026",
+        "end_date": "02/06/2026",
+        "description": "Go",
+        "number_of_rounds": 4,
+        "current_round": 1,
+        "player_scores": {
+            "AB12345": 0.5,
+            "CD23456": 2.0,
+            "EF34567": 0.5,
+            "GH45678": 1.0,
+            "EC45678": 1.0,
+            "GH12389": 0.0
+        },
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.5
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 2.0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.5
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 1.0
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 1.0
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 0.0
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "CD23456",
+                            1.0
+                        ]
+                    ],
+                    [
+                        [
+                            "GH12389",
+                            0.0
+                        ],
+                        [
+                            "GH45678",
+                            1.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "EC45678",
+                            1.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-06-02T11:19:13.444150",
+                "end_datetime": "2026-06-02T11:19:13.446465"
+            }
+        ]
+    },
+    {
+        "name": "Rennes",
+        "location": "Rennes",
+        "start_date": "03/06/26",
+        "end_date": "03/06/26",
+        "description": "New one",
+        "number_of_rounds": 4,
+        "current_round": 2,
+        "player_scores": {
+            "AB12345": 0.5,
+            "CD23456": 0.5,
+            "EF34567": 2.0,
+            "GH45678": 0.5,
+            "EC45678": 1.0,
+            "GH12389": 1.5
+        },
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.5
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 0.5
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 2.0
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 0.5
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 1.0
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 1.5
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "EF34567",
+                            1.0
+                        ],
+                        [
+                            "CD23456",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EC45678",
+                            1.0
+                        ],
+                        [
+                            "GH45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.0
+                        ],
+                        [
+                            "GH12389",
+                            1.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-06-02T16:06:52.820215",
+                "end_datetime": "2026-06-02T16:06:52.822673"
+            },
+            {
+                "name": "Round 2",
+                "matches": [
+                    [
+                        [
+                            "EF34567",
+                            1.0
+                        ],
+                        [
+                            "EC45678",
+                            0.0
+                        ]
+                    ],
+                    [
+                        [
+                            "GH12389",
+                            0.5
+                        ],
+                        [
+                            "CD23456",
+                            0.5
+                        ]
+                    ],
+                    [
+                        [
+                            "AB12345",
+                            0.5
+                        ],
+                        [
+                            "GH45678",
+                            0.5
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-06-02T16:08:58.546829",
+                "end_datetime": "2026-06-02T16:08:58.546979"
+            }
+        ]
+    },
+    {
+        "name": "Clisson",
+        "location": "Clisson",
+        "start_date": "16/06/26",
+        "end_date": "22/06/26",
+        "description": "Rock it",
+        "number_of_rounds": 4,
+        "current_round": 1,
+        "player_scores": {
+            "AB12345": 0.0,
+            "CD23456": 0.5,
+            "EF34567": 0.0,
+            "GH45678": 1.0,
+            "EC45678": 0.0,
+            "GH12389": 1.0,
+            "GD12345": 1.0,
+            "JK78945": 0.5
+        },
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.0
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 0.5
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.0
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 1.0
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 0.0
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 1.0
+            },
+            {
+                "last_name": "Abouchoukr",
+                "first_name": "Loubna",
+                "birth_date": "1993-11-03",
+                "chess_id": "GD12345",
+                "score": 1.0
+            },
+            {
+                "last_name": "Rock",
+                "first_name": "Hélène",
+                "birth_date": "1991-10-20",
+                "chess_id": "JK78945",
+                "score": 0.5
+            }
+        ],
+        "rounds": [
+            {
+                "name": "Round 1",
+                "matches": [
+                    [
+                        [
+                            "CD23456",
+                            0.5
+                        ],
+                        [
+                            "JK78945",
+                            0.5
+                        ]
+                    ],
+                    [
+                        [
+                            "EC45678",
+                            0.0
+                        ],
+                        [
+                            "GH12389",
+                            1.0
+                        ]
+                    ],
+                    [
+                        [
+                            "EF34567",
+                            0.0
+                        ],
+                        [
+                            "GD12345",
+                            1.0
+                        ]
+                    ],
+                    [
+                        [
+                            "GH45678",
+                            1.0
+                        ],
+                        [
+                            "AB12345",
+                            0.0
+                        ]
+                    ]
+                ],
+                "start_datetime": "2026-06-02T16:31:14.922448",
+                "end_datetime": "2026-06-02T16:31:14.922875"
+            }
+        ]
     }
 ]

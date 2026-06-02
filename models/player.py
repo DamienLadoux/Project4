@@ -1,5 +1,6 @@
 import re
 
+
 class Player:
     CHESS_ID_PATTERN = re.compile(r"^[A-Z]{2}\d{5}$")
 
@@ -9,7 +10,7 @@ class Player:
         first_name: str,
         birth_date: str,
         chess_id: str,
-        score: float =0.0,
+        score: float = 0.0,
     ):
         if not self.CHESS_ID_PATTERN.match(chess_id):
             raise ValueError("Identifiant national d'échecs invalide (format AB12345)")
