@@ -4,70 +4,73 @@ class TournamentView:
     def get_tournament_data():
         print("\n=== Nouveau tournoi ===")
 
+        name = input("Nom : ")
+        location = input("Lieu : ")
+        start_date = input("Date début : ")
+        end_date = input("Date fin : ")
+        description = input("Description : ")
+
+        rounds_input = input(
+            "Nombre de rounds (4 par défaut) : "
+        ).strip()
+
+        if rounds_input == "":
+            number_of_rounds = 4
+        else:
+            number_of_rounds = int(rounds_input)
+
         return {
-            "name": input("Nom : "),
-            "location": input("Lieu : "),
-            "start_date": input("Date début : "),
-            "end_date": input("Date fin : "),
-            "description": input("Description : "),
+            "name": name,
+            "location": location,
+            "start_date": start_date,
+            "end_date": end_date,
+            "description": description,
+            "number_of_rounds": number_of_rounds,
         }
 
     @staticmethod
     def display_tournaments(tournaments):
         print("\n=== Tournois ===")
 
-        for index, tournament in enumerate(tournaments):
+        for index, tournament in enumerate(
+            tournaments,
+            start=1,
+        ):
             print(
-                f"{index + 1}. "
+                f"{index}. "
                 f"{tournament.name} "
                 f"({tournament.location})"
             )
 
     @staticmethod
     def select_tournament(tournaments):
-        TournamentView.display_tournaments(tournaments)
+        TournamentView.display_tournaments(
+            tournaments
+        )
 
-        while True:
-            choice = input("Choisir tournoi : ")
-
-            if not choice.isdigit():
-                print("Veuillez entrer un nombre.")
-                continue
-
-            index = int(choice) - 1
-            if 0 <= index < len(tournaments):
-                return index
-
-                return index
-
-            print("Choix invalide.")
+        return (
+            int(
+                input(
+                    "Choisir tournoi : "
+                )
+            )
+            - 1
+        )
 
     @staticmethod
     def display_matches(round_obj):
         print(f"\n=== {round_obj.name} ===")
 
-        for index, match in enumerate(round_obj.matches):
+        for index, match in enumerate(
+            round_obj.matches,
+            start=1,
+        ):
             print(
-                f"{index + 1}. "
+                f"{index}. "
                 f"{match.player1.full_name()} "
                 f"vs "
                 f"{match.player2.full_name()}"
             )
-
-    @staticmethod
-    def get_match_result(match):
-        print(
-            f"\nRésultat : "
-            f"{match.player1.full_name()} "
-            f"vs "
-            f"{match.player2.full_name()}"
-        )
-
-        print("1 = joueur 1 gagne")
-        print("2 = joueur 2 gagne")
-        print("3 = nul")
-
-        return input("Choix : ")
 
     @staticmethod
     def show_message(message):

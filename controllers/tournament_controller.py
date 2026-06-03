@@ -45,6 +45,7 @@ class TournamentController:
             start_date=data["start_date"],
             end_date=data["end_date"],
             description=data["description"],
+            number_of_rounds=data["number_of_rounds"],
         )
 
         players_to_register = self.players.copy()

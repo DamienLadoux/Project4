@@ -19,6 +19,14 @@ class ReportView:
         print(f"Début : {tournament.start_date}")
         print(f"Fin   : {tournament.end_date}")
 
+        print("\n=== Joueurs inscrits ===")
+
+        for player in sorted(
+                tournament.players,
+                key=lambda p: p.last_name
+        ):
+            print(player.full_name())
+
         print("\n=== Classement ===")
 
         for player in tournament.rankings():

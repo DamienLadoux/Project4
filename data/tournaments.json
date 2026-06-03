@@ -919,5 +919,83 @@
                 "end_datetime": "2026-06-02T16:31:14.922875"
             }
         ]
+    },
+    {
+        "name": "Lille",
+        "location": "Lille",
+        "start_date": "25/11/26",
+        "end_date": "25/11/26",
+        "description": "La haut",
+        "number_of_rounds": 5,
+        "current_round": 0,
+        "player_scores": {
+            "AB12345": 0.0,
+            "CD23456": 0.0,
+            "EF34567": 0.0,
+            "GH45678": 0.0,
+            "EC45678": 0.0,
+            "GH12389": 0.0,
+            "GD12345": 0.0,
+            "JK78945": 0.0
+        },
+        "players": [
+            {
+                "last_name": "Dupont",
+                "first_name": "Jean",
+                "birth_date": "1990-01-01",
+                "chess_id": "AB12345",
+                "score": 0.0
+            },
+            {
+                "last_name": "Martin",
+                "first_name": "Luc",
+                "birth_date": "1988-02-12",
+                "chess_id": "CD23456",
+                "score": 0.0
+            },
+            {
+                "last_name": "Bernard",
+                "first_name": "Emma",
+                "birth_date": "1995-03-08",
+                "chess_id": "EF34567",
+                "score": 0.0
+            },
+            {
+                "last_name": "Petit",
+                "first_name": "Enrique",
+                "birth_date": "1992-07-19",
+                "chess_id": "GH45678",
+                "score": 0.0
+            },
+            {
+                "last_name": "Ladoux",
+                "first_name": "Damien",
+                "birth_date": "1991-11-27",
+                "chess_id": "EC45678",
+                "score": 0.0
+            },
+            {
+                "last_name": "Pastor",
+                "first_name": "Ludwig",
+                "birth_date": "1985-10-25",
+                "chess_id": "GH12389",
+                "score": 0.0
+            },
+            {
+                "last_name": "Abouchoukr",
+                "first_name": "Loubna",
+                "birth_date": "1993-11-03",
+                "chess_id": "GD12345",
+                "score": 0.0
+            },
+            {
+                "last_name": "Rock",
+                "first_name": "Hélène",
+                "birth_date": "1991-10-20",
+                "chess_id": "JK78945",
+                "score": 0.0
+            }
+        ],
+        "rounds": []
     }
 ]
